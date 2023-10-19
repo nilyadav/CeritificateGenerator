@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/static/css/home/home.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Marck+Script&display=swap" rel="stylesheet">
+    <title>Certificate</title>
+    <style>
+        
+
+        body {
+            margin: 0%;
+            padding: 0%;
+            background-color: #f2f2f2;
+
+        }
+
+
+        .outer-border {
+            border: 2px solid red;
+            width: 98%;
+            height: 750px;
+            padding: 4px;
+        }
+
+        .inner-dotted-border {
+            border: 2px solid black;
+            width: 1300px;
+            width: 97.8%;
+            height: 740px;
+
+        }
+
+
+        /* .extra-inner-border {
+    height: 730px;
+    padding: 40px 130px 10px 137px;
+    margin: 0px 10px 0px 10px;
+} */
+        .extra-inner-border {
+            width: 900px;
+            height: 698px;
+            margin: 50px auto;
+            border: 5px solid aqua;
+            padding: 5px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .extra-inner1 {
+            border: 2px solid aqua;
+            height: 655px;
+            padding: 10px;
+            /* background-color: #9e9e9e33; */
+        }
+
+        .maincontainr {
+            text-align: center;
+        }
+
+        .image {
+            height: 156px;
+            width: 145px;
+            float: right;
+            padding-right: 35px;
+            padding-top: 20px;
+
+        }
+
+        .image1 {
+            float: left;
+        }
+
+        .image img {
+            height: 100px;
+            width: 100px;
+        }
+
+
+
+        /* .image-contain {
+    font-weight: 400;
+    color: #53bfbf;
+} */
+        .child-container {
+            width: 886px;
+            /* padding-left: 30px; */
+            margin-top: -170px;
+            float: left;
+            text-align: center;
+
+            /* background-image: url(/static/logos/hello2.webp); */
+            background-image: url(https://as1.ftcdn.net/v2/jpg/03/00/13/54/1000_F_300135469_m4XasEVAQaOx1veTb63DN0HA9sfuS5A4.jpg);
+            /* background-size: contain; */
+            background-size: 400px;
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-position: 190px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .certification {
+            font-family: 'Marck Script', cursive;
+            font-size: 70px;
+            font-weight: bold;
+            color: #663ab7;
+            margin-top: 8px;
+            margin-bottom: -2px;
+            width: 90%;
+        }
+
+        .certify {
+            font-size: 25px;
+            font-weight: 800;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            width: 95%;
+        }
+
+        .work-management {
+            font-size: 25px;
+            font-weight: 600px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            width: 95%;
+            word-spacing: -3px;
+
+        }
+
+        .name {
+            font-size: 20px;
+            color: green;
+            font-family: "Marck Script", cursive;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            width: 80%;
+            word-spacing: -1px;
+        }
+
+        .fs-30 {
+            font-size: 20px;
+            font-family: 'Courgette', cursive;
+            font-family: 'Marck Script', cursive;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .fs-20 {
+            font-size: 25px;
+        }
+
+        ul {
+            list-style-type: None;
+        }
+
+        .left {
+            display: block;
+            position: relative;
+            float: left;
+            width: 62%;
+        }
+
+        .right {
+            display: block;
+            position: relative;
+            float: right;
+            width: 38%;
+        }
+
+        li {
+            padding: .8%;
+        }
+
+        .child-container span {
+            padding: 0.8%;
+        }
+
+        .title {
+            margin-top: -53px;
+            float: right;
+            width: 64%;
+            padding-left: 17px;
+
+            /* text-align: center; */
+        }
+
+        .title1 {
+            font-size: 33px;
+            color: aqua;
+            font-weight: 900;
+            padding-left: 20px;
+        }
+
+        .title2 {
+            font-size: 30px;
+            color: aqua;
+            font-weight: 900;
+        }
+
+        .head {
+            float: left;
+            width: 23%;
+            height: 40%;
+            text-align: center;
+            margin-top: -7px;
+        }
+
+        .head1 {
+            margin-top: 8px;
+            margin-bottom: -12px;
+            font-weight: 800;
+        }
+
+        .head2 {
+            font-weight: 800;
+            color: #53bfbf;
+        }
+
+        .head3 {
+            font-weight: 600;
+            font-family: 'Cedarville Cursive';
+            /* font-size: 22px; */
+            margin-top: -23px;
+        }
+
+        .logo img {
+            height: 60px;
+            width: 60px;
+            padding-left: 60px;
+            text-align: center;
+        }
+
+        .logo1 {
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .seal-logo {
+            position: relative;
+        }
+
+        .my-logo {
+            position: absolute;
+            top: 362px;
+            left: 450px;
+            height: 116px;
+        }
+
+        .unique-logo {
+            position: relative;
+            background-color: rgb(16, 161, 28);
+        }
+
+        .my-unique-logo {
+            position: absolute;
+            top: 447px;
+            left: 340px;
+            height: 125px;
+
+        }
+
+        /* 
+.bottom-contain {
+    border: 2px solid rgb(219, 34, 96);
+    width: 100%;
+    overflow: hidden;
+} */
+        .bottom-left-contain {
+            border: 2px solid purple;
+            /*
+
+    display: block;
+    position: relative;
+    float: left;
+    width: 48%;
+    padding: 12px; */
+            /* margin-top: -40px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+    border: 2px solid black; */
+            float: left;
+            width: 35%;
+            height: 53px;
+            margin-top: 50px;
+            padding: 5px;
+        }
+
+        .first-left-li {
+            padding-left: 2px;
+        }
+
+        .bottom-right-contain {
+            border: 2px solid rgb(138, 153, 51);
+            /*
+    display: block;
+    position: relative;
+    float: right;
+    width: 35%;
+    margin-top: 46px;
+    padding: 10px; */
+            /* display: block;
+    position: relative;
+    float: right;
+    width: 20%;
+    margin-top: 2px; */
+            float: right;
+            width: 35%;
+            height: 53px;
+            margin-top: 58px;
+            padding: 5px;
+        }
+
+        .ul li {
+            width: 44px;
+            float: left;
+            /* margin: 10px 10px -10px 10px; */
+            height: 53px;
+            padding: 10px;
+            margin-top: -26px;
+        }
+
+        .ul li img {
+            height: 54px;
+            width: 45px;
+        }
+
+
+
+        /* .center-image {
+    padding-bottom: 0%;
+} */
+        .center-image img {
+            /* margin-left: 90px; */
+            /* margin-bottom: 36px; */
+            height: 120px;
+            width: 100px;
+
+        }
+
+        .footer p {
+            position: absolute;
+            bottom: -3px;
+            width: 95%;
+            padding-left: 10px;
+            font-weight: bold;
+            margin-bottom: 12px;
+
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <body>
+        <div class="extra-inner-border">
+            <div class="extra-inner1">
+                <div class="nav-bar">
+                    <div class="logoname">
+                        <div class="logo">
+                            <img src="/static/img/logos/BMW.png"
+                                alt="">
+                        </div>
+                        <div class="head">
+
+                            <!-- <div>
+                                            <span class="head1"> TELENT TRAINING</span>
+                                        </div>
+                                        <div>
+                                            <span class="head2">INSTITUTELL.C</span>
+                                        </div>
+                                        <div>
+                                            <span class="head3"><i>teach to inspire</i></span>
+                                        </div> -->
+                            <p class="head1">TELENT TRAINING</p>
+                            <p class="head2">INSTITUTELL.C</p>
+                            <p class="head3">teach to inspir</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <div class="title-in-urdu">
+                        <span class="title1">ٹیلنٹ ٹریننگ انسٹی ٹیوٹ ایل ایل سی</span>
+                    </div>
+                    <div class="title-of-english">
+                        <span class="title2"> TALENT TRAINING INSTITUTE LLC </span>
+                    </div>
+                    <div class="approved-by"><b>Approved by ACTVET-License No. 07/02/2018 ADNOC Group No.
+                            10011934</b>
+                    </div>
+                </div>
+
+                <div class="maincontainr">
+                    <div class="image">
+                        <div class="image1">
+                            <img src="/static/img/logos/BMW.png"
+                                alt="sorry" class="img-1">
+                            <!-- <div class="image-contain">
+                                            <p>ایل ایل س </p>
+                                            <p>ADNOC</p>
+                                        </div> -->
+                        </div>
+                    </div>
+                    <div class="child-container">
+                        <!-- <span class="certification">Certificate</span> -->
+                        <p class="certification">Certificate</p>
+                        <p class="name"><i> This is to certity that</i></p>
+                        <p class="certify">MOHAMMED SHAFIQUE AZIZ</p>
+                        <p class="name">Has successfully completed & passed</p>
+                        <p class="work-management"><i>Work Management System (WMS) Full Package (As Per ADNOC
+                                Onshore
+                                Requirement)</i></p>
+                        <p class="fs-30">Held on January 5, 2023 tti,Mussaffah</p>
+                    </div>
+
+                </div>
+                <div class="bottomlist">
+                    <div class="left">
+                        <ul>
+                            <li><b>Company:</b><span>Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Id,
+                                    tenetur.</span></li>
+                            <li><b>Certificate No.:</b> <span>Lorem ipsum dolor sit amet.</span></li>
+                            <li><b>Instructor:</b><span>Lorem ipsum dolor sit.</span></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><b>ID NO:</b><span>Lorem, ipsum dolor.</span></li>
+                            <li><b>Certificate Validaity:</b><span>Lorem ipsum dolor sit.</span></li>
+                            <li><b>Academic Director:</b><span>Lorem ipsum dolor sit.</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="seal-logo">
+                    <img src="/static/img/logos/BMW.png"
+                        alt="My Logo" class="my-logo">
+                </div>
+                <div class="unique-logo">
+                    <img src="/static/img/logos/BMW.png"
+                        alt="My Logo" class="my-unique-logo">
+                </div>
+                <div class="bottom-contain">
+                    <div class="bottom-right-contain">
+                        <ul class="ul">
+                            <li class="first-right-li"><img
+                                    src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                            <li><img src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                            <li><img src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                            <li><img src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                        </ul>
+                    </div>
+                    <div class="bottom-left-contain">
+                        <ul class="ul">
+                            <li class="first-left-li"><img
+                                    src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                            <li><img src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                            <li><img src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+                            <li><img src="/static/img/logos/BMW.png"
+                                    alt="sorry"></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="center-image">
+                                <img src="/static/img/logos/BMW.png" alt="sorry">
+                            </div> -->
+                <div class="footer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum nulla vero?Lorem
+                        ipsum
+                        dolor sit amet consectetur </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</body>
+Collapse
+
+
+
+
+React
+Reply
