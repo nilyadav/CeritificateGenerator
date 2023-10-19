@@ -1,0 +1,39 @@
+#message-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .message {
+    position: relative;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    animation: fade-out 5s;
+  }
+  
+  .error {
+    background-color: red;
+  }
+  
+  .success {
+    background-color: green;
+  }
+  
+  /* Animation */
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  

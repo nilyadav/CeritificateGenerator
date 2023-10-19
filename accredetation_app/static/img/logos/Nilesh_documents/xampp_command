@@ -1,0 +1,25 @@
+use this command to start xampp server # but yes you have to go inside the download directory because you have put xampp on that /download/
+ 
+
+ #sudo ./xampp-linux-x64-8.1.12-0-installer.run   >> inside the directory
+
+ 
+
+ 
+# then run  this command in download directory
+      # sudo /opt/lampp/lampp restart
+      # sudo /opt/lampp/lampp stop
+      # sudo /opt/lampp/lampp start
+      
+ 
+ 
+# if want stop server and mysql properlly then
+1] sudo /etc/init.d/apache2 stop
+2] sudo /etc/init.d/mysql stop
+3] sudo /etc/init.d/proftpd stop
+4] mysql -h 127.0.0.1 -P 3306 -u root -p <database_name>
+
+
+#comand to print sql query with django orm in python shell 
+
+# python manage.py shell_plus --print-sql 

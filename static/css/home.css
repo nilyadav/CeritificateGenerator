@@ -1,0 +1,370 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #f2f2f2;
+
+
+
+
+}
+
+/* .outer-border {
+    border: 2px solid red;
+    width:98%;
+    height: 750px;
+    padding: 4px;
+} */
+
+/* .inner-dotted-border {
+    border: 2px solid black;
+    width: 1300px;
+    width: 97.8%;
+    height: 740px;
+
+} */
+
+/* .extra-inner-border {
+    height: 730px;
+    padding: 40px 130px 10px 137px;
+    margin: 0px 10px 0px 10px;
+} */
+
+.extra-inner-border {
+    width: 900px;
+    height: 698px;
+    margin: 50px auto;
+    border: 5px solid aqua;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.extra-inner1 {
+    border: 2px solid aqua;
+    height: 655px;
+    padding: 10px;
+    /* background-color: #9e9e9e33; */
+}
+
+
+/* .extra-inner1:after {
+    content: '';
+    background-image: url(https://image.ibb.co/ckrVv7/water_mark_logo.png);
+    top: 150px;
+    left: 444px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    background-size: 42%;
+    z-index: -1;
+    background-repeat: no-repeat;
+} */
+
+.maincontainr {
+    /* width: 600px; */
+    /*
+    padding-top: 48px;
+    padding-left: 1px;
+    float: left; */
+    
+    text-align: center;
+}
+
+.image {
+    height: 156px;
+    width: 145px;
+    float: right;
+    padding-right: 35px;
+    padding-top: 20px;
+
+    
+}
+
+.image1 {
+    float: left;
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+}
+
+/* .image-contain {
+    font-weight: 400;
+    color: #53bfbf;
+} */
+
+.child-container {
+    width: 886px;
+    /* padding-left: 30px; */
+    margin-top: -170px;
+    float: left;
+    text-align: center;
+
+    /* background-image: url(/static/logos/hello2.webp); */
+    background-image: url( https://as1.ftcdn.net/v2/jpg/03/00/13/54/1000_F_300135469_m4XasEVAQaOx1veTb63DN0HA9sfuS5A4.jpg);
+    /* background-size: contain; */
+    background-size: 400px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-position: 190px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.certification {
+    font-family: 'Marck Script', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    color: #663ab7;
+    margin-top: 8px;
+    margin-bottom: -2px;
+    width: 90%;
+}
+
+.certify {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 95%;
+}
+
+.work-management {
+    font-size: 25px;
+    font-weight: 600px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 95%;
+    word-spacing: -3px;
+
+}
+
+.name {
+    font-size: 20px;
+    color: green;
+    font-family: "Marck Script", cursive;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 80%;
+    word-spacing: -1px;
+}
+
+.fs-30 {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Marck Script', cursive;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.fs-20 {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: None;
+}
+
+
+.left {
+    display: block;
+    position: relative;
+    float: left;
+    width: 62%;
+}
+
+.right {
+    display: block;
+    position: relative;
+    float: right;
+    width: 38%;
+}
+
+li {
+    padding: .8%;
+}
+
+.child-container span {
+    padding: 0.8%;
+}
+
+.title {
+    margin-top: -53px;
+    float: right;
+    width: 64%;
+    padding-left: 17px;
+
+    /* text-align: center; */
+}
+
+.title1 {
+    font-size: 35px;
+    color: aqua;
+    font-weight: 900;
+    padding-left: 82px;
+}
+
+.title2 {
+    font-size: 30px;
+    color: aqua;
+    font-weight: 900;
+}
+
+
+
+.head {
+    float: left;
+    width: 23%;
+    height: 40%;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.head1 {
+    margin-top: 8px;
+    margin-bottom: -12px;
+    font-weight: 800;
+}
+
+.head2 {
+    font-weight: 800;
+    color: #53bfbf;
+}
+
+.head3 {
+    font-weight: 600;
+    font-family: 'Cedarville Cursive';
+    /* font-size: 22px; */
+    margin-top: -23px;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.logo1 {
+
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.seal-logo {
+    position: relative;
+}
+
+.my-logo {
+    position: absolute;
+    top: 362px;
+    left: 450px;
+    height: 116px;
+}
+
+.unique-logo{
+    position:relative;
+    background-color:rgb(16, 161, 28);
+}
+
+.my-unique-logo{
+    position: absolute;
+    top: 447px;
+    left: 340px;
+    height: 125px;
+
+}
+    /* 
+.bottom-contain {
+    border: 2px solid rgb(219, 34, 96);
+    width: 100%;
+    overflow: hidden;
+} */
+.bottom-left-contain {
+    border: 2px solid purple;
+    /*
+
+    display: block;
+    position: relative;
+    float: left;
+    width: 48%;
+    padding: 12px; */
+    /* margin-top: -40px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+    border: 2px solid black; */
+    float: left;
+    width: 35%;
+    height: 53px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.first-left-li {
+    padding-left: 2px;
+}
+
+
+.bottom-right-contain {
+    border: 2px solid rgb(138, 153, 51);
+    /*
+    display: block;
+    position: relative;
+    float: right;
+    width: 35%;
+    margin-top: 46px;
+    padding: 10px; */
+    /* display: block;
+    position: relative;
+    float: right;
+    width: 20%;
+    margin-top: 2px; */
+    float: right;
+    width: 35%;
+    height: 53px;
+    margin-top: 58px;
+    padding: 5px;
+}
+
+.ul li {
+    width: 44px;
+    float: left;
+    /* margin: 10px 10px -10px 10px; */
+    height: 53px;
+    padding: 10px;
+    margin-top: -26px;
+}
+
+.ul li img {
+    height: 54px;
+    width: 45px;
+}
+
+/* .center-image {
+    padding-bottom: 0%;
+} */
+
+.center-image img {
+    /* margin-left: 90px; */
+    /* margin-bottom: 36px; */
+    height: 120px;
+    width: 100px;
+
+}
+
+.footer p {
+    position: absolute;
+    bottom: -3px;
+    width: 95%;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}

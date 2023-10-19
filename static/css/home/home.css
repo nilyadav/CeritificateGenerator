@@ -1,0 +1,259 @@
+* {
+    background-color: hwb(182deg 95% 2% / 3%);
+    margin: 0%;
+    padding: 0%;
+}
+
+.outer-border {
+    /* border: 2px solid red; */
+    width: 1300px;
+    height: 750px;
+    padding: 4px;
+}
+
+.inner-dotted-border {
+    /* border: 2px solid black; */
+    width: 1300px;
+    /* width: 96%; */
+    height: 740px;
+
+}
+
+.extra-inner-border {
+    height: 700px;
+    padding: 10px 130px 10px 137px;
+    margin: 0px 10px 0px 10px;
+}
+
+.extra-border {
+    border: 5px solid #53bfbf;
+    height: 715px;
+}
+
+.extra-inner1 {
+    border: 2px solid #76f3f3;
+    margin: 5px;
+    height: 700px;
+    /* background-color: #9e9e9e33; */
+}
+
+.extra-inner1:after {
+    content: '';
+    background-image: url(https://image.ibb.co/ckrVv7/water_mark_logo.png);
+    top: 150px;
+    left: 444px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    background-size: 42%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.maincontainr {
+    width: 1000px;
+    padding-top: 48px;
+    padding-left: 1px;
+    float: left;
+    text-align: center;
+}
+
+.image {
+    height: 156px;
+    width: 145px;
+    font-size: x-large;
+    float: right;
+    margin-top: -46px;
+
+}
+
+.image1 {
+    float: left;
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+}
+
+.image-contain {
+    font-weight: 400;
+    color: #53bfbf;
+}
+
+.child-container {
+    width: 886px;
+    padding-top: -20px;
+    padding-left: 30px;
+    margin-top: -163px;
+    float: left;
+    text-align: center;
+}
+
+.certification {
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: #663ab7;
+}
+
+.certify {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.name {
+    font-size: 30px;
+    color: green;
+    font-family: 'Courgette', cursive;
+    font-family: 'Marck Script', cursive;
+
+}
+
+.fs-30 {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Marck Script', cursive;
+}
+
+.fs-20 {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: None;
+}
+
+
+.left {
+    display: block;
+    position: relative;
+    float: left;
+    width: 52%;
+    padding-left: 6%;
+}
+
+.right {
+    display: block;
+    position: relative;
+    float: right;
+    width: 30%;
+}
+
+li {
+    padding: .8%;
+}
+
+.child-container span {
+    padding: 0.8%;
+}
+
+.title {
+    margin-top: -53px;
+    float: right;
+    width: 54%;
+    padding-left: 17px;
+    text-align: center;
+}
+
+.title1 {
+    font-size: 35px;
+    color: aqua;
+    font-weight: 900;
+}
+
+.title2 {
+    font-size: 30px;
+    color: aqua;
+    font-weight: 900;
+}
+
+
+
+.head {
+    float: left;
+    width: 23%;
+    height: 40%;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.head1 {
+    font-weight: 800;
+}
+
+.head2 {
+    font-weight: 800;
+    color: #53bfbf;
+}
+
+.head3 {
+    font-weight: 600;
+    font-family: 'Cedarville Cursive';
+    /* font-size: 22px; */
+    margin-top: 20px;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+.logo1 {
+
+    height: 50px;
+    width: 50px;
+    background-color: hsl(0, 0%, 3%);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bottom-left-contain {
+    display: block;
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-top: 35px;
+    padding: 12px;
+}
+
+.bottom-right-contain {
+    display: block;
+    position: relative;
+    float: right;
+    width: 35%;
+    margin-top: 46px;
+    padding: 10px;
+}
+
+.ul li {
+    width: 44px;
+    float: left;
+    margin: 10px 10px -10px 10px;
+    height: 53px;
+}
+
+.ul li img {
+    height: 54px;
+    width: 45px;
+}
+
+
+.center-image img {
+    margin-left: 90px;
+    margin-bottom: 36px;
+    height: 120px;
+    width: 100px;
+
+}
+
+.footer p {
+    position: absolute;
+    bottom: -65px;
+    width: 74%;
+    height: 20px;
+    padding-left: 22px;
+    font-weight: bold;
+}
